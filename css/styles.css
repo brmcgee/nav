@@ -1,0 +1,51 @@
+:root{
+    --text-primary: rgba(51, 51, 51, 1);
+    --text-secondary: rgba(163, 30, 30, 1);
+    --text-alert: rgba(226, 206, 19, 1);
+    --text-info: rgba(19, 167, 226, 1);
+    --bg-primary: rgb(255, 255, 255);
+    --bg-dark: rgba(51, 51, 51, 1);
+    --bg-light: rgb(218, 218, 218);
+    --bg-secondary: rgba(163, 30, 30, 1);
+
+    --font-primary: 'Lucida Sans';
+    --banner-height: 400px;
+    --nav-height: 100px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-primary);
+    overflow-x: hidden;
+}
+
+
+/* 3 containers .logo .nav-bar .wrapper */
+.banner {
+    height: var(--banner-height);
+    background-color: var(--bg-secondary);
+    margin: 0px;
+    padding: 0px;
+} 
+.nav-bar {
+    height: var(--nav-height);
+    background-color: var(--text-info);
+    margin: 0px;
+    padding: 0px;
+} 
+.wrapper {
+    height: 1000px;
+    background-color:var(--bg-light);
+    margin: 0px;
+    padding: 0px;
+}   
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    overflow: hidden;
+    width: 100%;
+} 

@@ -33,6 +33,7 @@
   <link rel="stylesheet" href="https://brmcgee.github.io/brm-site/css/brm-logo.css">
   <link rel="stylesheet" href="https://brmcgee.github.io/brm-site/css/scroll.css">
   <link rel="stylesheet" href="https://brmcgee.github.io/brm-site/css/masthead.css">
+  
 
   <!-- Local JS scripts -->
   <script src="https://brmcgee.github.io/brm-site/js/apps.js"></script>
@@ -41,6 +42,18 @@
   
 
   <style>
+/* fix???  */
+    @media screen and (max-width: 667px) {
+      body {
+        overflow-x: hidden !important;
+      }
+      .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+      }
+    }
+
+
     .logo {
       height: 95vh;
       margin: 0px;
@@ -122,6 +135,7 @@
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  overflow: hidden;
 }
 
 #hero h1 {
@@ -130,12 +144,16 @@
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  overflow: hidden;
+
 }
 
 #hero h2 {
   color: #eee;
   margin-bottom: 40px;
   font-size: 22px;
+  overflow: hidden;
+
 }
 
 #hero .btn-get-started {
